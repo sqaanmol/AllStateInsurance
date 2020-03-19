@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-19T02:20:39 EDT" name="Suite" finished-at="2020-03-19T02:22:14 EDT" duration-ms="94794">
+    <groups>
+    </groups>
+    <test started-at="2020-03-19T02:20:39 EDT" name="Test" finished-at="2020-03-19T02:22:14 EDT" duration-ms="94794">
+      <class name="com.allstate.qa.testcases.PostalCodeVerificationtestcase3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase3@f09733f]" started-at="2020-03-19T02:21:01 EDT" name="setup" finished-at="2020-03-19T02:21:19 EDT" duration-ms="18648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PostalPageVerification3(java.lang.String, java.lang.String)[pri:1, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase3@f09733f]" started-at="2020-03-19T02:21:19 EDT" name="PostalPageVerification3" data-provider="getexceldata" finished-at="2020-03-19T02:21:20 EDT" duration-ms="180" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L6Z3P2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTO]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9EMFVHM', ip: '192.168.17.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\LT\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0b554a59fdd980cdc5321c9f62ee171
+*** Element info: {Using=id, value=ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9EMFVHM', ip: '192.168.17.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\LT\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0b554a59fdd980cdc5321c9f62ee171
+*** Element info: {Using=id, value=ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+at com.allstate.qa.pages.PostalCodeVerification3.PostalCodeandInsuranceType(PostalCodeVerification3.java:37)
+at com.allstate.qa.testcases.PostalCodeVerificationtestcase3.PostalPageVerification3(PostalCodeVerificationtestcase3.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostalPageVerification3 -->
+      </class> <!-- com.allstate.qa.testcases.PostalCodeVerificationtestcase3 -->
+      <class name="com.allstate.qa.testcases.PostalCodeVerificationtestcase2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase2@4b45a2f5]" started-at="2020-03-19T02:20:39 EDT" name="setup" finished-at="2020-03-19T02:20:54 EDT" duration-ms="14364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PostalPageVerification()[pri:1, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase2@4b45a2f5]" started-at="2020-03-19T02:20:54 EDT" name="PostalPageVerification" finished-at="2020-03-19T02:20:59 EDT" duration-ms="5677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostalPageVerification -->
+        <test-method is-config="true" signature="closeup()[pri:0, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase2@4b45a2f5]" started-at="2020-03-19T02:20:59 EDT" name="closeup" finished-at="2020-03-19T02:20:59 EDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeup -->
+      </class> <!-- com.allstate.qa.testcases.PostalCodeVerificationtestcase2 -->
+      <class name="com.allstate.qa.testcases.PersonalInfoTestcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allstate.qa.testcases.PersonalInfoTestcase@41a0aa7d]" started-at="2020-03-19T02:21:34 EDT" name="setup" finished-at="2020-03-19T02:21:53 EDT" duration-ms="19641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PostalPageVerification3(java.lang.String, java.lang.String)[pri:1, instance:com.allstate.qa.testcases.PersonalInfoTestcase@41a0aa7d]" started-at="2020-03-19T02:21:53 EDT" name="PostalPageVerification3" data-provider="getexceldata" finished-at="2020-03-19T02:21:54 EDT" duration-ms="156" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L6Z3P2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTO]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9EMFVHM', ip: '192.168.17.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\LT\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb66ffe7ab104a33005f872803d4c3be
+*** Element info: {Using=id, value=ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9EMFVHM', ip: '192.168.17.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\LT\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb66ffe7ab104a33005f872803d4c3be
+*** Element info: {Using=id, value=ctl00_ctl00_ctl00_pagecontent_pagecontent_cphQQLanding_ddlProdu}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+at com.allstate.qa.pages.PostalCodeVerification3.PostalCodeandInsuranceType(PostalCodeVerification3.java:37)
+at com.allstate.qa.testcases.PersonalInfoTestcase.PostalPageVerification3(PersonalInfoTestcase.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostalPageVerification3 -->
+        <test-method is-config="true" signature="closeup()[pri:0, instance:com.allstate.qa.testcases.PersonalInfoTestcase@41a0aa7d]" started-at="2020-03-19T02:21:54 EDT" name="closeup" finished-at="2020-03-19T02:21:54 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allstate.qa.testcases.PersonalInfoTestcase@41a0aa7d]" started-at="2020-03-19T02:21:54 EDT" name="setup" finished-at="2020-03-19T02:22:14 EDT" duration-ms="19385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="personalinfoo3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.allstate.qa.testcases.PersonalInfoTestcase@41a0aa7d]" started-at="2020-03-19T02:22:14 EDT" name="personalinfoo3" data-provider="getexceldata1" finished-at="2020-03-19T02:22:14 EDT" duration-ms="65" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2015.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HONDA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ACCORD TOURING 4DR]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_ctl00_ctl00_pagecontent_pagecontent_cphBody_txtAge"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9EMFVHM', ip: '192.168.17.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\LT\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 41e329ba64a08d8ea9d0d3a6d699dee0
+*** Element info: {Using=id, value=ctl00_ctl00_ctl00_pagecontent_pagecontent_cphBody_txtAge}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_ctl00_ctl00_pagecontent_pagecontent_cphBody_txtAge"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9EMFVHM', ip: '192.168.17.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\LT\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 41e329ba64a08d8ea9d0d3a6d699dee0
+*** Element info: {Using=id, value=ctl00_ctl00_ctl00_pagecontent_pagecontent_cphBody_txtAge}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+at com.allstate.qa.pages.PersonalInfo.selectvehicleinformation(PersonalInfo.java:66)
+at com.allstate.qa.testcases.PersonalInfoTestcase.personalinfoo3(PersonalInfoTestcase.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalinfoo3 -->
+        <test-method is-config="true" signature="closeup()[pri:0, instance:com.allstate.qa.testcases.PersonalInfoTestcase@41a0aa7d]" started-at="2020-03-19T02:22:14 EDT" name="closeup" finished-at="2020-03-19T02:22:14 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeup -->
+      </class> <!-- com.allstate.qa.testcases.PersonalInfoTestcase -->
+      <class name="com.allstate.qa.testcases.PostalCodeVerificationtestcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase@e350b40]" started-at="2020-03-19T02:21:20 EDT" name="setup" finished-at="2020-03-19T02:21:33 EDT" duration-ms="13278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PostalPageVerification()[pri:1, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase@e350b40]" started-at="2020-03-19T02:21:33 EDT" name="PostalPageVerification" finished-at="2020-03-19T02:21:34 EDT" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostalPageVerification -->
+        <test-method is-config="true" signature="closeup()[pri:0, instance:com.allstate.qa.testcases.PostalCodeVerificationtestcase@e350b40]" started-at="2020-03-19T02:21:34 EDT" name="closeup" finished-at="2020-03-19T02:21:34 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeup -->
+      </class> <!-- com.allstate.qa.testcases.PostalCodeVerificationtestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
